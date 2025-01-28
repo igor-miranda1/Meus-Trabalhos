@@ -1,0 +1,30 @@
+@media screen and (max-width: 1170px ) {
+
+    .pack-1,
+    .pack-2,
+    .pack-3,
+    .pack-4,
+    .pack-5
+     {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    h3 {
+        margin: 0 auto;
+        padding: 10px;
+        display: block; /* Troca o display para block */
+        text-align: center; /* Centraliza o texto no elemento */
+        word-wrap: break-word; /* Força a quebra de palavras longas */
+        overflow-wrap: break-word; /* Compatibilidade com navegadores modernos */
+    }
+
+
+}
+
+
