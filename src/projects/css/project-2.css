@@ -22,17 +22,5 @@
         overflow-wrap: break-word; /* Compatibilidade com navegadores modernos */
     }
 
-    @media screen and (max-width: 425px ) {
-        .pack-1 {
-             height: auto;
-             width: 100px;
-             display: flex;
-             flex-wrap: wrap;
-             justify-content: center;
-             align-items: center;
-             gap: 10px;
-        }
-     
-     }
 }
 
